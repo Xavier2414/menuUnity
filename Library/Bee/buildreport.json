@@ -1,0 +1,19 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 4414493252.3,"dur": 579097.6, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 4414534366.1,"dur": 444413.9, "ph":"X", "name": "Preprocess Player"},
+{}
+
+],
+"meta_datetime": "10/17/2022 16:39:16",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.5f1\\Editor\\Unity.exe\" -projectpath D:\\unity\\actividad2Unity\\MenuJuego -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-alumnat -hubSessionId 938ff030-4e1f-11ed-a267-09f3445a3d6e -accessToken KXC7_hDeWAi6aOcxDrASFyHeglyurYB7qwkATvZfeiI001f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.5f1\\Editor\\Unity.exe -projectpath D:\\unity\\actividad2Unity\\MenuJuego -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-alumnat -hubSessionId 938ff030-4e1f-11ed-a267-09f3445a3d6e -accessToken KXC7_hDeWAi6aOcxDrASFyHeglyurYB7qwkATvZfeiI001f",
+"meta_user_name": "alumnat",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "6"
+}
